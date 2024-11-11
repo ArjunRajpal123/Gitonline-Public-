@@ -1,0 +1,8 @@
+{
+    "watch": ["app.js", "src/**", "views/**"],
+    "ext": "js, ts, hbs",
+    "exec": "npm run dev",
+    "events": {
+      "restart": "if [ ${FILENAME} != 'src/*' ]; then echo 'Not running build'; else npm run build; fi"
+    }
+  }

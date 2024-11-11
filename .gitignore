@@ -1,0 +1,6 @@
+node_modules
+*.swo
+*.swp
+.package-lock.json
+./static/**
+/static/bundle/**
