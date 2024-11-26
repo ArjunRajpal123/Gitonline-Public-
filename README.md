@@ -16,6 +16,7 @@ A browser based code editor with web-browsing and chatgpt/llms built into it. I 
 
 ### Models/Relationships
 
+```
 const userSchema = new mongoose.Schema({
   login: String,
   id: Number,
@@ -87,6 +88,7 @@ const feedbackSchema = new mongoose.Schema({
     required: true,
   },
 });
+```
 
 
 ## [Schema]([db.mjs](https://github.com/nyu-csci-ua-0467-001-002-spring-2024/final-project-ArjunRajpal123/blob/master/gitonline/src/app/utils/models.ts)) 
